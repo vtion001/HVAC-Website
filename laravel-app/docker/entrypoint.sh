@@ -34,5 +34,9 @@ echo "Running migrations..."
 sleep 10
 php artisan migrate --force
 
+# Fix ownership of the database after migrations (since they run as root)
+echo "Fixing database permissions..."
+chown -R www-data:www-data /var/www/database
+
 echo "Starting Apache..."
 apache2-foreground
