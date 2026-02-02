@@ -34,5 +34,5 @@ echo "Running migrations..."
 sleep 10
 php artisan migrate --force
 
-echo "Starting PHP-FPM..."
-php-fpm
+echo "Starting Apache..."
+apache2-foreground
