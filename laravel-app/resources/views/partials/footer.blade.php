@@ -1,63 +1,75 @@
-<footer class="bg-gray-900 text-white pt-16 pb-8 font-sans">
-    <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-            <!-- Column 1: Contact -->
-            <div>
-                <h3 class="text-xl font-bold mb-6 text-white uppercase tracking-wider">Contact Us</h3>
-                <p class="mb-4 text-gray-400">Connect with our Customer Care team about your products, warranties, or any dealer questions.</p>
-                <div class="flex items-center gap-2 mb-2">
-                    <svg class="w-5 h-5 text-trane-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                    <a href="tel:1-833-298-3493" class="text-xl font-bold hover:text-trane-red transition">1-833-298-3493</a>
+<footer class="bg-gray-900 text-white pt-20 pb-10 border-t border-white/5">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 mb-16">
+            
+            <!-- Brand -->
+            <div class="col-span-2 lg:col-span-2">
+                <a href="/" class="flex items-center gap-2 mb-6 group">
+                    <div class="w-8 h-8 rounded-lg bg-brand-400 text-white flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                        </svg>
+                    </div>
+                    <span class="text-xl font-bold text-white tracking-tight">NordicAir</span>
+                </a>
+                <p class="text-gray-400 text-sm leading-relaxed max-w-xs mb-8">
+                    Building first-time homeowners towards smarter, more sustainable, and perfectly comfortable living spaces.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors text-white/60 hover:text-white">In</a>
+                    <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors text-white/60 hover:text-white">Tw</a>
+                    <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors text-white/60 hover:text-white">Fb</a>
                 </div>
-                <p class="text-xs text-gray-500">Monday – Friday from 7am to 5pm CST</p>
             </div>
 
-            <!-- Column 2: Products -->
+            <!-- Links 1 -->
             <div>
-                <h3 class="text-xl font-bold mb-6 text-white uppercase tracking-wider">Products</h3>
-                <ul class="space-y-3 text-gray-400">
-                    <li><a href="#" class="hover:text-white transition">Air Conditioners</a></li>
-                    <li><a href="#" class="hover:text-white transition">Furnaces</a></li>
-                    <li><a href="#" class="hover:text-white transition">Heat Pumps</a></li>
-                    <li><a href="#" class="hover:text-white transition">Packaged Systems</a></li>
-                    <li><a href="#" class="hover:text-white transition">Ductless Systems</a></li>
-                    <li><a href="#" class="hover:text-white transition">Thermostats</a></li>
+                <h4 class="font-bold text-white/40 uppercase text-xs tracking-wider mb-6">Solutions</h4>
+                <ul class="space-y-4 text-sm text-gray-300">
+                    <li><a href="#" class="hover:text-brand-400 transition-colors">Heat Pumps</a></li>
+                    <li><a href="#" class="hover:text-brand-400 transition-colors">Split AC Units</a></li>
+                    <li><a href="#" class="hover:text-brand-400 transition-colors">Smart Controls</a></li>
+                    <li><a href="#" class="hover:text-brand-400 transition-colors">Air Purification</a></li>
                 </ul>
             </div>
 
-            <!-- Column 3: Resources -->
+            <!-- Links 2 -->
             <div>
-                <h3 class="text-xl font-bold mb-6 text-white uppercase tracking-wider">Resources</h3>
-                <ul class="space-y-3 text-gray-400">
-                    <li><a href="#" class="hover:text-white transition">Warranty & Registration</a></li>
-                    <li><a href="#" class="hover:text-white transition">Owner's Manuals</a></li>
-                    <li><a href="#" class="hover:text-white transition">Troubleshooting</a></li>
-                    <li><a href="#" class="hover:text-white transition">Maintenance Tips</a></li>
-                    <li><a href="#" class="hover:text-white transition">Tax Credits & Rebates</a></li>
+                <h4 class="font-bold text-white/40 uppercase text-xs tracking-wider mb-6">Company</h4>
+                <ul class="space-y-4 text-sm text-gray-300">
+                    <li><a href="#" class="hover:text-brand-400 transition-colors">Our Story</a></li>
+                    <li><a href="#" class="hover:text-brand-400 transition-colors">Why Choose Us</a></li>
+                    <li><a href="#" class="hover:text-brand-400 transition-colors">Sustainability</a></li>
+                    <li><a href="#" class="hover:text-brand-400 transition-colors">Installation Guide</a></li>
                 </ul>
             </div>
 
-            <!-- Column 4: Dealers -->
+            <!-- Links 3 -->
             <div>
-                <h3 class="text-xl font-bold mb-6 text-white uppercase tracking-wider">For Partners</h3>
-                <ul class="space-y-3 text-gray-400">
-                    <li><a href="#" class="hover:text-white transition">Become a Dealer</a></li>
-                    <li><a href="#" class="hover:text-white transition">Distributor Locator</a></li>
-                    <li><a href="#" class="hover:text-white transition">Commercial HVAC</a></li>
-                    <li><a href="#" class="hover:text-white transition">Careers</a></li>
+                <h4 class="font-bold text-white/40 uppercase text-xs tracking-wider mb-6">Help</h4>
+                <ul class="space-y-4 text-sm text-gray-300">
+                    <li class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        1-800-NORDIC-AIR
+                    </li>
+                    <li class="flex items-center gap-2">
+                         <svg class="w-4 h-4 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        hello@nordicair.com
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Mon-Fri, 9am - 5pm
+                    </li>
                 </ul>
             </div>
         </div>
 
-        <div class="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-            <div class="mb-4 md:mb-0">
-                &copy; {{ date('Y') }} Trane. All Rights Reserved.
-            </div>
-            <div class="flex space-x-6">
-                <a href="#" class="hover:text-white transition">Privacy Policy</a>
-                <a href="#" class="hover:text-white transition">Terms & Conditions</a>
-                <a href="#" class="hover:text-white transition">Accessibility</a>
-                <a href="#" class="hover:text-white transition">Sitemap</a>
+        <div class="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+            <p>&copy; 2026 Nordic Climate Solutions. All rights reserved.</p>
+            <div class="flex gap-6 mt-4 md:mt-0">
+                <a href="#" class="hover:text-white transition-colors">Privacy</a>
+                <a href="#" class="hover:text-white transition-colors">Terms</a>
+                <a href="#" class="hover:text-white transition-colors">Accessibility</a>
             </div>
         </div>
     </div>
