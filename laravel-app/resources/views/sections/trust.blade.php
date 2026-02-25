@@ -70,7 +70,7 @@
                 <p class="text-white text-lg font-medium italic mb-6">"Being a first-time homeowner was stressful until I found NordicAir. They walked me through everything and the system works flawlessly. Best investment we've made."</p>
                 
                 <div class="flex items-center gap-4">
-                    <img src="https://ui-avatars.com/api/?name=Sarah+Jenkins&background=random" alt="Avatar" class="w-10 h-10 rounded-full border-2 border-white/20">
+                    <img src="https://ui-avatars.com/api/?name=Sarah+Jenkins&background=random" alt="Customer Sarah Jenkins testimonial avatar" class="w-10 h-10 rounded-full border-2 border-white/20">
                     <div>
                         <div class="text-white font-bold text-sm">Sarah Jenkins</div>
                         <div class="text-brand-300 text-xs">New Homeowner, Oslo</div>

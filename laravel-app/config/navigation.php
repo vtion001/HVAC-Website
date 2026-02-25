@@ -10,24 +10,70 @@ return [
     'main_menu' => [
         [
             'label' => 'Heating',
-            'url' => '#',
+            'route' => 'heating',
             'dropdown' => [
-                ['label' => 'Furnaces', 'url' => '#'],
-                ['label' => 'Heat Pumps', 'url' => '#'],
-                ['label' => 'Ductless Systems', 'url' => '#'],
+                ['label' => 'Heat Pumps', 'route' => 'heat-pumps'],
+                ['label' => 'Furnaces', 'route' => 'furnaces'],
+                ['label' => 'Boilers', 'route' => 'heating'],
+                ['label' => 'Ductless', 'route' => 'ductless'],
             ],
         ],
         [
             'label' => 'Cooling',
-            'url' => '#',
+            'route' => 'cooling',
             'dropdown' => [
-                ['label' => 'Air Conditioners', 'url' => '#'],
-                ['label' => 'Heat Pumps', 'url' => '#'],
-                ['label' => 'Ductless Systems', 'url' => '#'],
+                ['label' => 'Air Conditioners', 'route' => 'cooling'],
+                ['label' => 'Heat Pumps', 'route' => 'heat-pumps'],
+                ['label' => 'Ductless Systems', 'route' => 'ductless'],
             ],
         ],
-        ['label' => 'Air Quality', 'url' => '#'],
-        ['label' => 'Thermostats', 'url' => '#'],
-        ['label' => 'Products', 'url' => '#'],
+        [
+            'label' => 'Products',
+            'route' => null,
+            'dropdown' => [
+                ['label' => 'Air Quality', 'route' => 'air-quality'],
+                ['label' => 'Smart Thermostats', 'route' => 'thermostats'],
+                ['label' => 'Packaged Systems', 'route' => 'packaged-systems'],
+            ],
+        ],
+        [
+            'label' => 'Why Nordic',
+            'route' => 'why-nordic',
+        ],
+        [
+            'label' => 'Support',
+            'route' => 'support',
+        ],
+    ],
+
+    'footer_menu' => [
+        'heating' => [
+            ['label' => 'Heat Pumps', 'route' => 'heat-pumps'],
+            ['label' => 'Furnaces', 'route' => 'furnaces'],
+            ['label' => 'Boilers', 'route' => 'heating'],
+            ['label' => 'Installation', 'route' => 'heating'],
+            ['label' => 'Repair', 'route' => 'heating'],
+        ],
+        'cooling' => [
+            ['label' => 'Air Conditioners', 'route' => 'cooling'],
+            ['label' => 'Ductless Systems', 'route' => 'ductless'],
+            ['label' => 'Central AC', 'route' => 'cooling'],
+            ['label' => 'Installation', 'route' => 'cooling'],
+            ['label' => 'Repair', 'route' => 'cooling'],
+        ],
+        'products' => [
+            ['label' => 'Air Purifiers', 'route' => 'air-quality'],
+            ['label' => 'Smart Thermostats', 'route' => 'thermostats'],
+            ['label' => 'Packaged Systems', 'route' => 'packaged-systems'],
+            ['label' => 'Humidifiers', 'route' => 'air-quality'],
+            ['label' => 'Ventilation', 'route' => 'air-quality'],
+        ],
+        'company' => [
+            ['label' => 'About Us', 'route' => 'why-nordic'],
+            ['label' => 'Why Choose Us', 'route' => 'why-nordic'],
+            ['label' => 'Our Guarantee', 'route' => 'support'],
+            ['label' => 'Financing', 'route' => 'support'],
+            ['label' => 'Careers', 'route' => 'support'],
+        ],
     ],
 ];

@@ -3,7 +3,8 @@
 @section('title', 'Systems | Cooling & Heating - NordicAir')
 
 @section('content')
-<section class="pt-40 pb-20 bg-white">
+@include('partials.breadcrumb', ['crumbs' => ['Systems' => route('cooling')]])
+<section class="pt-8 pb-20 bg-white">
     <div class="container mx-auto px-6 text-center max-w-4xl">
         <h1 class="text-5xl lg:text-6xl font-bold font-serif text-brand-950 mb-6">Climate Systems</h1>
         <p class="text-xl text-gray-600 mb-12">Precision engineering for every room. Explore our range of highly efficient cooling and heating solutions.</p>
@@ -54,7 +55,7 @@
             </div>
             <div class="lg:w-1/2 relative">
                  <div class="absolute inset-0 bg-white/40 blur-3xl rounded-full scale-90"></div>
-                 <img src="{{ asset('images/trane-split-ac.png') }}" alt="Nordic Pure" class="relative z-10 w-full rounded-2xl shadow-xl transform hover:scale-[1.02] transition-transform duration-500">
+                 <img src="{{ asset('images/trane-split-ac.png') }}" alt="Nordic Pure Series flagship heat pump for ultra-efficient home climate control" class="relative z-10 w-full rounded-2xl shadow-xl transform hover:scale-[1.02] transition-transform duration-500">
             </div>
         </div>
 
@@ -65,7 +66,7 @@
                     <h3 class="text-2xl font-bold text-gray-900">Essential Split AC</h3>
                     <span class="px-3 py-1 bg-white text-xs font-bold rounded-full shadow-sm">18 SEER2</span>
                 </div>
-                <img src="{{ asset('images/trane-split-ac.png') }}" class="w-full h-64 object-cover rounded-xl mb-8 bg-white" alt="Split AC">
+                <img src="{{ asset('images/trane-split-ac.png') }}" class="w-full h-64 object-cover rounded-xl mb-8 bg-white" alt="NordicAir Essential Split AC unit for precise single-zone cooling">
                 <p class="text-gray-600 mb-6">Perfect for single-zone cooling. Reliable, cost-effective performance for bedrooms and home offices.</p>
                 <a href="#" class="text-brand-600 font-bold hover:underline">Learn more &rarr;</a>
             </div>
@@ -75,7 +76,7 @@
                     <h3 class="text-2xl font-bold text-gray-900">Multi-Zone System</h3>
                     <span class="px-3 py-1 bg-white text-xs font-bold rounded-full shadow-sm">Custom Config</span>
                 </div>
-                <img src="{{ asset('images/trane-split-ac.png') }}" class="w-full h-64 object-cover rounded-xl mb-8 bg-white" alt="Multi Zone">
+                <img src="{{ asset('images/trane-split-ac.png') }}" class="w-full h-64 object-cover rounded-xl mb-8 bg-white" alt="NordicAir Multi-Zone HVAC system for individual room temperature control">
                 <p class="text-gray-600 mb-6">Connect up to 5 indoor units to a single outdoor compressor. Individual temperature control for every room.</p>
                 <a href="#" class="text-brand-600 font-bold hover:underline">Learn more &rarr;</a>
             </div>

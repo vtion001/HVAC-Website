@@ -25,6 +25,10 @@ Route::get('/support', [PageController::class, 'show'])
     ->defaults('page', 'support')
     ->name('support');
 
+Route::get('/about', [PageController::class, 'show'])
+    ->defaults('page', 'about')
+    ->name('about');
+
 Route::get('/heating', [PageController::class, 'show'])
     ->defaults('page', 'heating')
     ->name('heating');

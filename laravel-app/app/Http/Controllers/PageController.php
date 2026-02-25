@@ -31,6 +31,7 @@ class PageController extends Controller
         'thermostats'      => 'pages.thermostats',
         'why-nordic'       => 'pages.why-nordic',
         'support'          => 'pages.support',
+        'about'            => 'pages.about',
     ];
 
     /**

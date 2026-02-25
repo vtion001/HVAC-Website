@@ -50,7 +50,7 @@
             <div class="w-full lg:w-1/2 relative">
                 <div class="relative rounded-[2rem] overflow-hidden shadow-2xl shadow-gray-200 bg-gray-100 aspect-square lg:aspect-[4/3]">
                     <!-- Placeholder for Wall AC Image -->
-                    <img src="{{ asset('images/trane-split-ac.png') }}" alt="Wall Mounted AC" class="w-full h-full object-cover object-center">
+                    <img src="{{ asset('images/trane-split-ac.png') }}" alt="Premium NordicAir wall-mounted split type air conditioning unit for modern homes" class="w-full h-full object-cover object-center">
                     
                     <!-- Floating Card -->
                     <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-white/50 flex items-start gap-4">

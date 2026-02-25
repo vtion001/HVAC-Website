@@ -4,7 +4,8 @@
 @section('description', "Discover the Nordic difference. Sustainable engineering, whisper-quiet operation, and a commitment to your home's air quality.")
 
 @section('content')
-<section class="py-24 pt-40 bg-nordic-beige">
+@include('partials.breadcrumb', ['crumbs' => ['Why Nordic' => route('why-nordic')]])
+<section class="py-24 pt-16 bg-nordic-beige">
     <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto text-center mb-20">
             <span class="text-brand-600 font-bold uppercase tracking-widest text-xs mb-4 block">Our Story</span>
@@ -45,7 +46,7 @@
 
         <!-- Image Break -->
         <div class="relative rounded-[3rem] overflow-hidden aspect-[21/9] mb-24 shadow-2xl">
-            <img src="{{ asset('images/trane-split-ac.png') }}" class="w-full h-full object-cover object-center scale-105" alt="Nordic Lifestyle">
+            <img src="{{ asset('images/trane-split-ac.png') }}" class="w-full h-full object-cover object-center scale-105" alt="Clean Scandinavian lifestyle design reflecting NordicAir's commitment to home comfort and sustainability">
             <div class="absolute inset-0 bg-brand-900/20 mix-blend-multiply"></div>
             <div class="absolute bottom-12 left-12 text-white max-w-lg">
                 <div class="text-sm font-bold uppercase tracking-widest mb-2 opacity-80">Our HQ</div>

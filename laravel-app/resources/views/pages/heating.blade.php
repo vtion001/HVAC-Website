@@ -3,7 +3,8 @@
 @section('title', 'Heating Solutions | NordicAir')
 
 @section('content')
-<section class="pt-40 pb-20 bg-brand-900 text-white relative overflow-hidden">
+@include('partials.breadcrumb', ['crumbs' => ['Heating' => route('heating')]])
+<section class="pt-8 pb-20 bg-brand-900 text-white relative overflow-hidden">
     <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
     <div class="container mx-auto px-6 text-center max-w-4xl relative z-10">
         <span class="text-brand-300 font-bold uppercase tracking-widest text-xs mb-4 block">Sustainable Heating</span>
@@ -22,7 +23,7 @@
         <!-- Feature Block -->
         <div class="flex flex-col lg:flex-row items-center gap-16 mb-24">
             <div class="lg:w-1/2">
-                <img src="{{ asset('images/trane-split-ac.png') }}" class="rounded-[3rem] w-full shadow-2xl" alt="Heat Pump Outdoor">
+                <img src="{{ asset('images/trane-split-ac.png') }}" class="rounded-[3rem] w-full shadow-2xl" alt="NordicAir energy-efficient heat pump outdoor unit engineered for extreme cold climates">
             </div>
             <div class="lg:w-1/2">
                 <h2 class="text-3xl font-bold text-brand-950 mb-6">Redefining Winter Comfort</h2>

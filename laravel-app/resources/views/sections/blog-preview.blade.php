@@ -11,7 +11,7 @@
             <!-- Article 1 -->
             <a href="#" class="group block">
                 <div class="relative overflow-hidden rounded-2xl mb-6 shadow-sm aspect-[3/2]">
-                    <img src="{{ asset('images/trane-split-ac.png') }}" alt="Heat Pump" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <img src="{{ asset('images/trane-split-ac.png') }}" alt="Modern energy-efficient heat pump for northern home climate control" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider text-brand-800">Technology</div>
                 </div>
@@ -22,7 +22,7 @@
             <!-- Article 2 -->
             <a href="#" class="group block">
                 <div class="relative overflow-hidden rounded-2xl mb-6 shadow-sm aspect-[3/2]">
-                    <img src="{{ asset('images/trane-split-ac.png') }}" alt="Air Quality" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter hue-rotate-30">
+                    <img src="{{ asset('images/trane-split-ac.png') }}" alt="In-home air filtration system and air quality maintenance illustration" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter hue-rotate-30">
                      <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
                      <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider text-brand-800">Health</div>
                 </div>
@@ -33,7 +33,7 @@
             <!-- Article 3 -->
             <a href="#" class="group block">
                 <div class="relative overflow-hidden rounded-2xl mb-6 shadow-sm aspect-[3/2]">
-                    <img src="{{ asset('images/trane-split-ac.png') }}" alt="Maintenance" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter grayscale">
+                    <img src="{{ asset('images/trane-split-ac.png') }}" alt="HVAC system maintenance and filter cleaning checklist demonstration" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter grayscale">
                     <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider text-brand-800">Tips</div>
                 </div>

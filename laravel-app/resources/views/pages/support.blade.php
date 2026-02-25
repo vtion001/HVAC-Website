@@ -3,7 +3,8 @@
 @section('title', 'Support - NordicAir')
 
 @section('content')
-<section class="bg-brand-900 text-white pt-40 pb-24">
+@include('partials.breadcrumb', ['crumbs' => ['Support' => route('support')]])
+<section class="bg-brand-900 text-white pt-16 pb-24">
     <div class="container mx-auto px-6 text-center">
         <h1 class="text-4xl lg:text-6xl font-bold mb-6">How can we help?</h1>
         <div class="max-w-xl mx-auto relative">
